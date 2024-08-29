@@ -1,0 +1,698 @@
+HTML BASIC: 
+EXERCISE 1
+HTML elements are surrounded by a specific type of brackets, which one?
+
+<p>This is a paragraph.</p>
+
+EXERCISE 2
+Fill in the missing code to complete the markup of the HTML hyperlink.
+
+<ahref="https://www.w3schools.com">This is a link</a>
+
+HTML ELEMENTS: 
+EXERCISE 1
+Insert the correct end tag for the HTML heading.
+<h1>This is a heading</h1>
+
+EXERCISE 2
+Insert the correct end tags in this HTML document:
+<html>
+<body>
+<h4>This is a heading</h4>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+HTML ATTRIBUTES:
+EXERCISE 1
+Add a "tooltip" to the paragraph below with the text "About W3Schools".
+<p title="About W3Schools">W3Schools is a web developer's site.</p>
+
+EXERCISE 2
+Set the size of the image to 250 pixels wide and 400 pixels tall.
+<img src="w3schools.jpg" width="250" height="400">
+
+EXERCISE 3
+Make the element below into a link that goes to "https://www.w3schools.com".
+<ahref="https://www.w3schools.com">This is a link</a>
+
+EXERCISE 4
+Specify an alternate text for the image.
+Alternate text is useful when the image cannot be displayed, like when the page is read by a screen reader.
+<img src="w3schools.png" alt="w3schools Logo">
+
+HTML HEADINGS:
+EXERCISE 1
+Use the correct HTML tag to add a heading with the text "London".
+
+<h1>London</h1>
+<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+EXERCISE 2
+Add six headings to the document with the text "Hello".
+Start with the most important heading (the largest) and end with the least important heading (the smallest).
+<html>
+<body>
+<h1>Hello</h1>
+<h2>Hello</h2>
+<h3>Hello</h3>
+<h4>Hello</h4>
+<h5>Hello</h5>
+<h6>Hello</h6>
+</body>
+</html>
+EXERCISE 3
+Mark up the text with appropriate tags:
+"Universal Studios Presents" is the most important heading.
+"Jurassic Park" is the next most important heading.
+"About" is the third most important heading.
+The last sentence is just a paragraph.
+Start with the most important heading (the largest) and end with the least important heading (the smallest).
+
+<h1>Universal Studios Presents</h1>
+<h2>Jurassic Park</h2>
+<h3>About</h3>
+<p>On the Island of Isla Nublar, a new park has been built: 
+Jurassic Park is a theme park of cloned dinosaurs!!</p>
+
+HTML PARAGRAPHS:
+
+EXERCISE 1
+
+Use the correct HTML tag to add a paragraph with the text "Hello World!".
+<html>
+<body>
+<p>Hello World!</p>
+/body>
+</html>
+
+EXERCISE 2
+
+Clean up this document with proper end tags.
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+EXERCISE 3
+
+Add a horizontal rule between the heading and the paragraph.
+<h1>London</h1>
+<hr>
+<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+EXERCISE 4
+
+Add a line break in the middle of the paragraph:
+
+<p>My Bonnie lies<br>over the ocean.</p>
+
+EXERCISE 5
+
+Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed.
+
+
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+HTML STYLES:
+
+EXERCISE 1
+
+Use the correct HTML attribute, and CSS, to set the color of the paragraph to "blue".
+
+<p style="color:blue;">This is a paragraph.</p>
+ 
+EXERCISE 2 
+
+Use CSS to set the font of the paragraph to "courier".
+
+<p style="font-family:courier;">This is a paragraph.</p>
+
+EXERCISE 3 
+
+Use CSS to center align the paragraph.
+
+<p style="text-align:center;">This is a paragraph.</p>
+
+EXERCISE 4
+
+Use CSS to set the text size to 50 pixels.
+<p style="font-size:50px;">This is a paragraph.</p>
+
+EXERCISE 5
+
+Use CSS to set the background color of the document to yellow.
+<html>
+<body style="background-color:yellow;">
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+EXERCISE 6
+
+Use CSS to center align the document.
+
+<html>
+<body style="text-align:center;">
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+HTML FORMATTING:
+
+EXERCISE 1
+
+Add extra importance to the word "degradation" in the paragraph below.
+
+<p>
+WWF's mission is to stop the <strong>degradation</strong>of our planet's natural environment.
+</p>
+
+EXERCISE 2
+
+Emphasize the word "metropolitan" in the text below.
+
+<h1>Tokyo</h1>
+<p>
+Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world.</p>
+
+EXERCISE 3
+
+Highlight the word "FUN" in the text below.
+
+<p>
+HTML is <mark>FUN</mark>to learn!
+</p>
+
+EXERCISE 4
+
+Apply subscript formatting to the number "2" in the text below.
+
+<p>
+H<sub>2</sub>O is the scientific term for water.
+</p>
+
+EXERCISE 5
+
+Add a line through (strikeout) the letters "blue" in the text below.
+
+<p>
+My favorite color is <del>blue</del>red.
+</p>
+
+HTML QUOTATIONS:
+
+EXERCISE 1
+Use an HTML element to add quotation marks around the letters "cool".
+<p>
+I am so <q>cool</q>
+</p>
+
+EXERCISE 2
+The text below should be a quoted section.
+Add the proper HTML element to it, and specify that it is quoted from the following URL:
+http://www.worldwildlife.org/who/index.html
+
+<blockquotecite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+EXERCISE 3
+Change text direction.
+Make the text below go right-to-left.
+
+<bdo dir="rtl">What a beautiful day!</bdo>
+
+EXERCISE 4
+The letters "WHO" in the text below is an abbreviation of "World Health Organization".
+Use an HTML element to provide the specified abbreviation of "WHO
+<p>
+The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.
+</p>
+
+HTML COMMENTS:
+EXERCISE 1
+Use the HTML comment tag to make a comment out of the "This is a comment" text.
+
+<h1>This is a heading</h1>
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+
+EXERCISE 2
+Add comment tags around the paragraph:
+
+<!-- <p>This is a paragraph.</p> -->
+
+HTML COLORS:
+EXERCISE 1
+Insert the correct property to make the text color violet.
+
+<p style="color: violet">This is a paragraph.</p>
+
+EXERCISE 2
+Insert the correct RGB color values to make the background color completely blue.
+
+<p style="background-color:rgb(0, 0, 255)">This is a paragraph.</p>
+EXERCISE 3
+Insert the a background color where green has the value 100, red has the value 106, and blue has the value 205.
+
+<p style="background-color:rgb(106, 100, 205)">This is a paragraph.</p>
+
+EXERCISE 4
+Insert the correct HEX value to make the text color white.
+
+<p style="color: #ffffff">This is a paragraph.</p>
+
+EXERCISE 5
+Insert the HSLA value to make a color with no hue, 100% saturation, 50% lightness, and 50% transparency.
+
+<p style="color: hsla(0, 100%, 50%, 0.5)">This is a paragraph.</p>
+
+HTML CSS:
+
+EXERCISE 1
+Use CSS to set the background color of the document (body) to yellow.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+<h1>My Home Page</h1>
+</body>
+</html>
+EXERCISE 2
+Use CSS to set the font of the document to "courier".
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family:courier;}
+</style>
+</head>
+<body>
+<h1>My Home Page</h1>
+</body>
+</html>
+
+EXERCISE 3
+Use CSS to set the text color of the document to red.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {color:red;}
+</style>
+</head>
+<body>
+<h1>My Home Page</h1>
+</body>
+</html>
+
+EXERCISE 4
+Use CSS to make a yellow, 1 pixel thick, border around all paragraphs.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p{border: 1px solid yellow;}
+</style>
+</head>
+<body>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</body>
+</html>
+
+HTML LINKS 
+EXERCISE 1
+Use the correct HTML to make the text below into a link to "default.html".
+
+<ahref="default.html">Visit our HTML tutorial.</a>
+
+EXERCISE 2
+Use CSS to remove the underline from the link.
+
+<a href="html_images.asp" style="text-decoration:none;">HTML Images</a>
+
+EXERCISE 3
+Use the correct HTML attribute to make the link open in a new window.
+
+<a href="html_images.asp" target="_blank">HTML Images</a>
+
+EXERCISE 4
+Use the correct HTML to make the image become a link to "default.html".
+
+<ahref="default.html">
+<img src="smiley.gif">
+</a>
+
+EXERCISE 5
+Add a "tooltip" to the link.
+The "tooltip" should say "Home".
+
+<a href="default.html" title="Home">Back to Home</a>
+
+EXERCISE 6
+Add a link to a bookmark, on the same page, with the id="mytext".
+
+<ahref="#mytext">Jump to new text</a>
+
+HTML IMAGES
+
+EXERCISE 1
+Use the HTML image attributes to set the size of the image to 250 pixels wide and 400 pixels tall.
+
+<img src="scream.png" width="250" height="400">
+
+EXERCISE 2
+Use CSS to set the size of the image to 250 pixels wide and 400 pixels tall.
+
+<img src="scream.png" style="width:250px;height:400px;">
+
+EXERCISE 3
+Use the correct HTML to make the image become a link to "default.html".
+
+<ahref="default.html">
+<img src="smiley.gif">
+</a>
+
+EXERCISE 4
+Make the image below float to the right of the paragraph.
+
+<p>
+<img src="smiley.gif" style="float:right;">
+This is a paragraph.
+This paragraph contains an image
+</p>
+
+
+EXERCISE 5
+Add the correct HTML attribute to display the "smiley.gif" image.
+
+<img src="smiley.gif">
+
+EXERCISE 6
+
+Specify an alternate text for the image.
+The alternate text should say "Smiley".
+Alternate text is useful when the image cannot be displayed, like when the page is read by a screen reader.
+
+<img src="smiley.gif" alt="Smiley">
+
+EXERCISE 7
+For image maps, specify a legal value for the area tag's shape attribute.
+(Any legal value will give a correct answer)
+<area shape="default" href="default.html">
+
+EXERCISE 8
+Add a background image named "myimage.png" on a HTML element.
+
+<p style="background-image: url('myimage.png')">
+
+EXERCISE 9
+Which HTML tag is used to handle the favicon (the little image to the left in the browser tab):
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+HTML TABLES
+
+EXERCISE 1
+Add a table row with two table headers.
+
+The two table headers should have the value "Name" and "Age".
+
+<table>
+<tr>   
+<th>Name</th>
+<th>Age</th>
+</tr>
+  <tr>
+    <td>Jill Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+EXERCISE 2
+Use the correct CSS border values to create a solid black 3 pixels border on a table element.
+
+table, th, td {
+  border: 3px solid black  ;
+}
+
+EXERCISE 3
+Use CSS styles to make the table 300 pixels wide.
+
+<table style="width:300px;">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+EXERCISE 4
+Add a table caption that says "Names".
+
+<table>
+  <caption>Names</caption>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+EXERCISE 5
+Use the correct CSS property to add 15 pixels of space between the cell border and cell content.
+The result should look like this:
+.table td {
+padding: 15px;
+}
+
+EXERCISE 6
+
+Use the correct HTML attribute to make the second TH element span two rows.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill Smith</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-77854</td>
+  </tr>
+  <tr>
+    <td>555-77854</td>
+  </tr>
+</table>
+
+EXERCISE 7
+
+Use the correct HTML attribute to make the first TH element span two columns.
+
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+EXERCISE 8
+Add a table row at the end of the table, with two table cells.
+
+The two table cells should have the value "Eve Jackson" and "94".
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill Smith</td>
+    <td>50</td>
+  </tr>
+<tr>  
+<td>Eve Jackson</td>
+<td>94</td>
+</tr>
+</table>
+
+HTML LISTS
+
+EXERCISE 1
+Add a list item with the text "Coffee" inside the <ul>.
+
+<ul>
+<li>Coffee</li>
+</ul>
+
+EXERCISE 2
+Finish the HTML code to make an unordered list.
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+EXERCISE 3
+Finish the HTML code to make an ordered list.
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+EXERCISE 4
+
+Use the correct HTML attribute to display letters (uppercase ABC) instead of numbers.
+
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+EXERCISE 5
+Use the correct HTML attribute to display uppercase roman numbers.
+
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+EXERCISE 6
+Use the correct HTML elements to make a description of each term in the description list.
+
+<dl>
+  <dt>Coffee</dt>
+<dd>- black hot drink</dd>
+  <dt>Milk</dt>
+<dd>- white cold drink</dd>
+</dl>
+
+EXERCISE 7
+Use CSS to display squares instead of bullets.
+
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+HTML BLOCK AND INLINE
+
+EXERCISE 1
+
+EXERCISE 2
+
+HTML CLASSES
+
+EXERCISE 1
+
+EXERCISE 2
+
+EXERCISE 3
+
+HTML ID
+
+EXERCISE 1
+
+EXERCISE 2
+
+HTML IFRAMES
+
+EXERCISE 1
+
+EXERCISE 2
+
+EXERCISE 3
+
+EXERCISE 4
+
+HTML SCRIPTS
+
+EXERCISE 1
+EXERCISE 2
+EXERCISE 3
+EXERCISE 4
+
+HTML COMPUTERCODE
+
+EXERCISE 1
+EXERCISE 2
+EXERCISE 3
+
+HTML FORMS
+
+EXERCISE 1
+EXERCISE 2
+
+HTML FORM ATTRIBUTES
+
+EXERCISE 1
+EXERCISE 2
+
+HTML FORM ELEMENTS
+EXERCISE 1
+EXERCISE 2
+EXERCISE 3
+
+HTML INPUT TYPES
+
+EXERCISE 1
+EXERCISE 2
+EXERCISE 3
+EXERCISE 4
+EXERCISE 5
+
+HTML INPUT ATTRIBUTES
+EXERCISE 1
+EXERCISE 2
+EXERCISE 3
+EXERCISE 4
+
+
+
+
+
+
+
+
